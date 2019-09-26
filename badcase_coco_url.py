@@ -23,7 +23,7 @@ class coco_url_print():
         # super(self).__init__()
         warnings.simplefilter("ignore")
 
-        self.read_and_write_dir='/Users/baidu/Desktop/code/chun_ML_GCN/badcase_analyse/cls_gat_hist/'
+        self.read_and_write_dir='/Users/Desktop/code/chun_ML_GCN/badcase_analyse/cls_gat_hist/'
         self.url_pkl_file_name='badcase_coco_url.pkl'
         self.url_pkl_file_path=self.read_and_write_dir+self.url_pkl_file_name
         self.output_category=24
